@@ -33,4 +33,8 @@ public class UserController{
     public String homepage() {
         return "home";
     }
+    @GetMapping("/form")
+    public String formpage() {
+        return "form";
+    }
 }
