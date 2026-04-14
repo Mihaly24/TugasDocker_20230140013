@@ -8,6 +8,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
+    // untuk login
     private String username;
     private String password;
+
+    // untuk data mahasiswa
+    private String nim;
+    private String nama;
+    private int umur;
+    private String prodi;
+    private String jenisKelamin;
 }
